@@ -9,4 +9,4 @@ before_script:
   - pip install envtpl
 
 script:
-  - echo "ok"
+  - echo "ok, travis"
