@@ -6,7 +6,8 @@ install:
 
 before_script:
   - sudo apt-get install python-pip libffi-dev libssl-dev
-  - pip install requests[security] envtpl
+  - sudo pip install --upgrade pyopenssl ndg-httpsclient pyasn1
+  - sudo pip install --upgrade envtpl
 
 script:
   - echo "ok, travis"
